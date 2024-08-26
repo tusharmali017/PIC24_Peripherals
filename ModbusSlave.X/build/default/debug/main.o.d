@@ -1,0 +1,21 @@
+build/default/debug/main.o: main.c BIOS/bios.h BIOS/../projectdefines.h \
+ BIOS/timer1.h BIOS/uart1.h BIOS/pinmap.h APP/app.h APP/../BIOS/bios.h \
+ APP/isr.h APP/modbusslave.h
+
+BIOS/bios.h:
+
+BIOS/../projectdefines.h:
+
+BIOS/timer1.h:
+
+BIOS/uart1.h:
+
+BIOS/pinmap.h:
+
+APP/app.h:
+
+APP/../BIOS/bios.h:
+
+APP/isr.h:
+
+APP/modbusslave.h:
